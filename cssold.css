@@ -1,0 +1,108 @@
+@charset "utf-8";
+/* CSS Document */
+
+#error {
+	color: #3F0;
+	font-size:24px;
+}
+
+#wrapper {
+	height:100%;
+	width: 100%;
+	margin: 0;
+}
+#header {
+	float: left;
+	height: auto;
+	width: 100%;
+	height: auto;
+	background-color: #FFF;
+	color: #099;
+	margin: 0;
+}
+
+#footer {
+	float: left;
+	height: auto;
+	width: 100%;
+	height: auto;
+	background-color: #099;
+	color: #FFF;
+	margin: 0;
+}
+
+#leftbar {
+	float: left;
+	height: auto;
+	width: 20%;
+}
+
+#wrapper #header h1 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+
+#mainarea {
+	float: left;
+	width: 59.9%;
+	height:auto;
+}
+
+#linkbar {
+	float: left;
+	width: 20%;
+	background-color: #CCC;
+	color: #FFF;
+	height:auto;
+}
+
+#menubar {
+	float: left;
+	height: auto;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	/*	position: absolute; Ensures that the menu doesn't affect other elements */
+	border-right: 5px solid #54879d;
+	background-color: #099;
+}
+
+#maintenanceButtons {
+	float:left;
+	color:#F00;
+	background-color:#0F0;
+}
+
+#menubar li 	{
+/*	height: 100%; */
+	width: 120px;  /* Each menu item is 110px wide */
+	float: left;  /* This lines up the menu items horizontally */
+	text-align: center;  /* All text is placed in the center of the box */
+	list-style: none;  /* Removes the default styling (bullets) for the list */
+	font: normal bold 12px/1.2em Arial, Verdana, Helvetica;  
+	padding: 0;
+	margin: 1%;
+/*	background-color: #366b82;*/
+}
+
+#menubar a	{
+	padding: 18px 0; /* Creates a border in a slightly darker shade of blue than the background.  Combined with the left border, this creates a nice effect. */
+	text-decoration: none;  /* Removes the default hyperlink styling. */
+	color: #000; /* Text color is white */
+	display: inline;
+}
+
+#languagebar {
+	float: left;
+	height: auto;
+	width: 100%;
+}
+
+#languagebar a {
+	margin-right: 5px;
+	font-size: 16px;
+	color: #000;
+	;
+}
+
+

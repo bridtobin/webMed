@@ -1,0 +1,251 @@
+*{
+	margin-left: 0;
+	margin-right: 0;
+	margin-bottom: 10;
+    color: inherit;
+}
+
+.error {
+	color: #F00;
+}
+
+.team {
+	height:250px;
+}
+
+iframe {border:thin;
+}
+
+img {padding:10px;
+}
+#wrapper {
+	width: 100%;
+	background-color:#EEE;
+    background: #EEE;
+	height:auto;
+	overflow:hidden;
+	min-width:1100px;
+}
+
+#header {
+	float: left;
+	height: auto;
+	width: 100%;
+	height: auto;
+	background-color: #FFF;
+	color: #099;
+	margin: 0;
+	overflow:hidden;
+}
+
+#footer {
+	float: left;
+	height:auto;
+	width: 100%;
+	background-color: #066;
+	color: #FFF;
+	left: 0;
+	bottom: 0;
+	position:fixed;
+}
+
+
+#wrapper #header .pagename {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size:36px;
+	font-weight:400;
+}
+
+
+#mainarea {
+	float: left;
+	width: 73.3%;
+	height: auto;
+    background: #EEE;
+    padding: 10px;
+    font: 16px Georgia, "Times New Roman", Times, serif;
+    color: #666;
+/*    text-shadow: 1px 1px 1px #FFF;*/
+    border:1px solid #DADADA;
+}
+
+#mainareaform {
+	float: left;
+	width: 100%;
+	height: auto;
+    background: #EEE;
+    padding: 10px;
+    font: 16px Georgia, "Times New Roman", Times, serif;
+    color: #666;
+/*    text-shadow: 1px 1px 1px #FFF;*/
+    border:1px solid #DADADA;
+}
+
+#mainareaMaint {
+	float: left;
+	width: 100%;
+	height:auto;
+}
+
+#linkbar {
+	float: left;
+	width: 23%;
+	height:auto;
+	background: #EEE;
+    font: 12px Georgia, "Times New Roman", Times, serif;
+    color: #888;
+
+	
+}
+
+#linkbar a {
+	font-size: 16px;
+	display:inline;
+  white-space: nowrap;
+
+}
+
+#menubar {
+	float: left;
+	height: auto;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	/*	position: absolute; Ensures that the menu doesn't affect other elements */
+	border-right: 5px solid #54879d;
+	background-color: #066;
+}
+
+
+
+#menuform {
+	height:auto;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    background: #066;
+    padding: 20px 10px 20px 10px;
+    font: 14px Georgia, "Times New Roman", Times, serif;
+    color: #888;
+/*    text-shadow: 1px 1px 1px #FFF;*/
+    border:1px solid #DADADA;
+}
+
+.menuform .button {
+	float:left;
+    background: #066;
+    border: none;
+    padding: 10px 25px 10px 25px;
+    color: #FFF;
+}
+
+.menuform .button:hover {
+    background: #CF7A7A
+}
+
+#menubar li 	{
+/*	height: 100%; */
+	width: 120px;  /* Each menu item is 110px wide */
+	float: left;  /* This lines up the menu items horizontally */
+	text-align: center;  /* All text is placed in the center of the box */
+	list-style: none;  /* Removes the default styling (bullets) for the list */
+	font: normal bold 12px/1.2em Arial, Verdana, Helvetica;  
+	padding: 0;
+	margin: 1%;
+/*	background-color: #366b82;*/
+}
+
+#menubar a	{
+	padding: 18px 0; /* Creates a border in a slightly darker shade of blue than the background.  Combined with the left border, this creates a nice effect. */
+	text-decoration: none;  /* Removes the default hyperlink styling. */
+	color: #FFF; /* Text color is white */
+	display: inline;
+}
+
+#languagebar {
+	float: left;
+	height: auto;
+	width: 100%;
+}
+
+#languagebar a {
+	margin-right: 5px;
+	font-size: 16px;
+	color: #000;
+}
+
+/* Basic Grey */
+.basic-grey {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    background: #EEE;
+    padding: 20px 30px 20px 30px;
+    font: 14px "Times New Roman", Times, serif;
+/*Georgia, "Times New Roman", Times, serif;*/
+    color: #666;
+/*    text-shadow: 1px 1px 1px #FFF;*/
+    border:1px solid #DADADA;
+}
+.basic-grey h1 {
+    font: 25px Georgia, "Times New Roman", Times, serif;
+    padding: 0px 0px 10px 40px;
+    display: block;
+    border-bottom: 1px solid #DADADA;
+	margin: -10px -30px 30px -30px;
+    color: #666;
+}
+.basic-grey h1>span {
+    display: block;
+    font-size: 11px;
+}
+.basic-grey label {
+    display: block;
+    margin: 0px 0px 5px;
+}
+.basic-grey label>span {
+    float: left;
+    width: 120px;
+    text-align: right;
+    padding-right: 10px;
+    margin-top: 10px;
+    color: #666;
+}
+.basic-grey input[type="text"], .basic-grey input[type="email"], .basic-grey textarea,.basic-grey select{
+    border: 1px solid #DADADA;
+    color: #666;
+    height: 30px;
+    margin-bottom: 2px;
+    margin-right: 6px;
+    margin-top: 2px;
+/*    outline: 0 none;*/
+    padding: 3px 3px 3px 5px;
+    width: 50%;
+    font: normal 12px/12px Georgia, "Times New Roman", Times, serif;
+}
+
+.basic-grey textarea{
+    height:80px;
+    font: normal 16px Georgia, "Times New Roman", Times, serif;
+
+}
+.basic-grey .button {
+    background: #066;
+    border: none;
+    padding: 10px 25px 10px 25px;
+    color: #FFF;
+}
+.basic-grey .button:hover {
+    background: #CF7A7A
+}
+
+
+table,th,td
+{
+border:1px solid black;
+border-collapse:collapse;
+font-size:16px;
+padding:5px 10px 5px 10px;
+}
+
+
